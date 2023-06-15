@@ -717,7 +717,7 @@ while True:
     print("1 ----> BİNARY \n2 ----> HEXADECIMAL \n3 ----> SEZAR \n4 ----> MORSE \n5 ----> BASE64 \n6 ----> XOR\n7 ----> ROT-13\n8 ----> ROT-47\n9 ----> RAİL FENCE\n10 ---> ATBASH\n11 ---> REVERSE\n12 ---> Vigenère\n13 ---> ROT-5\n")
     print(Fore.CYAN)
 
-    algoritma = int(input("KULLANACAĞINIZ ALGORİTMAYI SEÇİN (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15): "))
+    algoritma = int(input("KULLANACAĞINIZ ALGORİTMAYI SEÇİN (1,2,3,4,5,6,7,8,9,10,11,12,13): "))
 
     print(Fore.YELLOW)
 
