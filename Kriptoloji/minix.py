@@ -7,13 +7,13 @@ def binary_encode():
     mesaj = input("Şifreliyeceğiniz metini girin: ")
     print(Fore.MAGENTA)
     binary = " ".join(format(ord(c), "b") for c in mesaj)
-    print(binary)
+    print("Çözülmüş Metin: " + binary)
 
 def binary_decode():
     sifreli_metin = input("Şifresini çözeceğiniz metin girin: ")
     print(Fore.MAGENTA)
     decode = "".join(chr(int(c, 2)) for c in sifreli_metin.split(" "))
-    print(decode)
+    print("Şifrelenmiş Metin: "+decode)
     
 
 
@@ -824,7 +824,9 @@ while True:
 
     elif algoritma == 13:
         rot5()
-
+        
+    else:
+        print("HATALI İŞLEM")
     
     print(Fore.CYAN)
     cikis = int(input("\n\n1-)EVET\n2-)HAYIR\n-Çıkmak istiyor musunuz(1,2): "))
