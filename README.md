@@ -3,19 +3,6 @@ ENGLISH:
 """
 İt contains 13 different algorithms, which are as follows:
 
-1 ----> BINARY
-2 ----> HEXADECIMAL
-3 ----> CAESAR
-4 ----> MORSE
-5 ----> BASE64
-6 ----> XOR
-7 ----> ROT-13
-8 ----> ROT-47
-9 ----> RAIL FENCE
-10 ---> ATBASH
-11 ---> REVERSE
-12 ---> Vigenère
-13 ---> ROT-5
 
 It is a program that can encode and decode each of these algorithms.
 
