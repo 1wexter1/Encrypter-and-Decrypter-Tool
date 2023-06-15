@@ -1,7 +1,7 @@
 # Encrypter and Decrypter Tool
 ENGLISH:
-
-"İt contains 13 different algorithms, which are as follows:
+"""
+İt contains 13 different algorithms, which are as follows:
 
 1 ----> BINARY
 2 ----> HEXADECIMAL
@@ -89,3 +89,5 @@ YUKARIDA Kİ ÖNEMLİ OLAN VE OKUMANIZI ÖNERDİĞİM ALGORİTMALAR ŞUNLARDIR;
 3-) RAİL FENCE
 4-) Vigenère
 5-) ROT-5
+
+"""
